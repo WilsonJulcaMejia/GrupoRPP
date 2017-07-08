@@ -1,11 +1,12 @@
 @echo off
 COPY "..\Libreria de trabajo\Documentos\Formato de pase a produccion.xlsx" "Formato de pase a produccion.xlsx"
 set NOMBRE_PROYECTO=AINNI
+set VERSION=V1
 set FECHA_ACTUAL=%DATE%
 set ANIO=%FECHA_ACTUAL:~6,4%
 set MES=%FECHA_ACTUAL:~3,2%
 set DIA=%FECHA_ACTUAL:~0,2%
-set RUTA=%NOMBRE_PROYECTO%_%DIA%%MES%%ANIO%
+set RUTA=%NOMBRE_PROYECTO%_%DIA%%MES%%ANIO%%VERSION%
 MD %RUTA%
 cd %RUTA% 
 MD Documentos
