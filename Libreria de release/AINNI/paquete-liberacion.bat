@@ -1,6 +1,6 @@
 @echo off
-MD STU
-cd STU
+MD AINNI
+cd AINNI
 set FECHA_ACTUAL=%DATE%
 set ANIO=%FECHA_ACTUAL:~6,4%
 set MES=%FECHA_ACTUAL:~3,2%
@@ -11,5 +11,5 @@ cd %RUTA%
 MD DOCUMENTOS
 MD CODIGO_FUENTE
 MD EJECUTABLES
-copy "../../Libreria\ de\ trabajo/Documentos/Documento\ de\ Liberacion.docx" "Documento\ de\ Liberacion.docx"
+copy "..\..\Libreria de trabajo\Documentos\Documento de Liberacion.docx" "Documento de Liberacion.docx"
 exit
