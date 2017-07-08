@@ -1,4 +1,5 @@
 @echo off
+COPY "..\..\Libreria de trabajo\Documentos\Documento de Liberacion.docx" "Documento de Liberacion.docx"
 MD AINNI
 cd AINNI
 set FECHA_ACTUAL=%DATE%
@@ -11,5 +12,4 @@ cd %RUTA%
 MD DOCUMENTOS
 MD CODIGO_FUENTE
 MD EJECUTABLES
-copy "..\..\Libreria de trabajo\Documentos\Documento de Liberacion.docx" "Documento de Liberacion.docx"
 exit
