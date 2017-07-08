@@ -6,11 +6,12 @@ cp ../Libreria\ de\ trabajo/Documentos/Formato\ de\ pase\ a\ produccion.xlsx For
 #cd AINNI
 SEPARADOR=_
 NOMBRE_PROYECTO=AINNI
+VERSION=V1
 FECHA_ACTUAL=$(date +%d%m%Y)
 #set ANIO=$FECHA_ACTUAL:~6,4$
 #set MES=$FECHA_ACTUAL:~3,2$
 #set DIA=$FECHA_ACTUAL:~0,2$
-RUTA=$NOMBRE_PROYECTO$SEPARADOR$FECHA_ACTUAL
+RUTA=$NOMBRE_PROYECTO$SEPARADOR$FECHA_ACTUAL$VERSION
 mkdir $RUTA
 cd $RUTA
 mkdir Documentos
